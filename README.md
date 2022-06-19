@@ -25,3 +25,9 @@
 1. 先以 Python 依 cubicpy_fetch.py 範例從字庫主檔中取字，產生包含自訂字詞資料的小型字庫檔。
 1. 將小型字庫檔上傳至 MicroPython，再依 cubicpy_demo.py 範例調用並顯示。
 1. 更多說明在 「[MicroPython feat. 俐方體11號 - HackMD](https://hackmd.io/@PaoyungChang/mpy_cubic11)」
+
+注意事項
+---
+
+- 空格也是文字，請記得加入字詞名單中。
+- 符號有分全型半型，務必分清楚才不會產生錯誤。

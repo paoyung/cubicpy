@@ -7,7 +7,7 @@ from cubicpy import chinese
 
 def fetch(word_list, output_file):
 	# collect
-	words = {}
+	words = {' ',}	# 把半型空格檔作預設字詞之一
 	exclude = []
 	for w in word_list:
 		try:
